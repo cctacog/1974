@@ -23,7 +23,7 @@ int restart(char y_n, int tries, string first, string last) {
   if (yn == 'y' || yn == 'Y') {
     if(y_n == 'y' || y_n == 'Y') {
         tries--;
-        cout << "You now have " << tries << "tries" << endl;
+        cout << "You now have " << tries << " tries" << endl;
         beginning(first, last, tries);
     } else if (y_n == 'n' || y_n == 'N') {
         cout << ". . .\nOk, good-bye";
@@ -73,7 +73,7 @@ void ending4(int tries, string first, string last) {
   cout << "The alarm slips out of your arm and skips\nacross the floor for what seemed like whole minutes." << endl;
   cout << "The leader walks up to it, turns it off,\ndrops it, an crushes the alarm beneath his boot." << endl;
   cout << "Two other men drag your chair across the\nwarehouse and throw you in a closet." << endl;
-  cout << "The leader approaches the door, hold it and softly tells you 'You might want to keep a picture of the sun with you, just incase you don't cooperate, " << last << " '." << endl;
+  cout << "The leader approaches the door,\nhold it and softly tells you\n'You might want to keep a picture of the sun with you,\njust incase you don't cooperate, " << last << " '." << endl;
   question(tries, first, last);
 }
 

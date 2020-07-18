@@ -104,7 +104,7 @@ void service(int tries, string first, string last)
     cout << "And your last (also not real) name is: ";
     cin >> nlast;
     cout << ". . .\nThe prime inspects the card,\nlooks at you,\nthen the card one last time." << endl;
-    cout << "'Alright " << nfirst <<" "<< nlast << "\nI think I got the perfect first job for ya,\nif you really aren't a cop'.";
+    cout << "'Alright " << nfirst <<" "<< nlast << "\nI think I got the perfect first job for ya,\nif you really aren't a cop'." << endl;
     cout << "Will you:\n1)Take the job\nor\n2)Leave\n?: ";
     cin >> t_l;
     choice8(t_l, nfirst, nlast, tries, first, last);
